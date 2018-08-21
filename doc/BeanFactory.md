@@ -1,0 +1,3 @@
+##BeanFactory 继承体系
+----
+BeanFactory是Spring框架最核心的接口，它提供了高级IOC的配置机制。BeanFactory使用管理不同类型的java对象成为可能，应用上下文ApplicationContext建立在BeanFactory基础之上，提供了更多面向应用功能，它提供了国际化支持及框架事件体系，更易于创建实际的应用。一般称BeanFactory为Ioc容器，而ApplicationContext为应用上下文。
